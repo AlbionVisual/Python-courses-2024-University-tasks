@@ -1,0 +1,4 @@
+multiple-sile-square.py
+    first square can be too big => select square with polygon only + 20%, when checking points select nearest cell
+    don't search sides for nested squares of 0 sided cell
+    rebuild list to a tree for skiping 0 cells

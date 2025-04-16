@@ -1,0 +1,3 @@
+python -m cProfile .\multiple-file-straight-funcs.py .\big-tests.txt | ForEach-Object { $_ | Select-String -Pattern (Get-Content filter.txt) }
+python .\task-gen.py .\big-tests.txt
+python .\multiple-file-squares.py .\visioned-tests.txt
